@@ -1,0 +1,33 @@
+h1{
+    color: aqua;
+
+}
+h1:hover{
+    color: cadetblue;
+}
+label{
+    display: block;
+    margin: 30px 0;
+}
+input:focus{
+    color: aqua;
+    background-color: ivory;
+}
+a{
+    display: block;
+    color: black;
+    text-decoration: none;
+}
+a:visited{
+    color: crimson;
+}
+
+li:nth-child(2n){
+    background-color: aqua;
+}
+h3::before{
+    content: "hello, everyone";
+}
+h3::after{
+    content: " number";
+}
